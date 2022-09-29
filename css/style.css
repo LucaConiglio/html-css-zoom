@@ -43,7 +43,7 @@ nav .right{
 }
 .card img {
     width: 100%;
-    height: 13vh;
+    height: 12vh;
 }
 
 .absolute {
@@ -66,8 +66,12 @@ footer div div a{
 footer{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(128, 128, 128, 0.502);
-    padding: 1.3rem 0;
+    background-color: rgba(128, 128, 128, 0.299);
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 
 }
 .footer-left{
@@ -87,9 +91,6 @@ footer div div a i{
 .icon-green a i{
     color: rgb(123, 206, 0);
 }
-.footer-center{
-    
-}
 .footer-center-box{
     display: flex;
 }
@@ -100,4 +101,19 @@ footer div div a i{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.footer-left div a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-left div{
+    padding-left: 0.2rem;
+}
+.footer-right button{
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.402);
+    color: red;
+    border: none;
+    padding: 0 0.4rem;
 }
