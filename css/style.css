@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 .mega-container {
@@ -25,16 +25,21 @@ nav {
 }
 nav button i {
     color: white;
+    display: inline-block;
+
+}
+nav .right{
+    margin-right: 5px;
 }
 .container {
     padding: 4vh 6vw;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5vh 0.3vw;
+    gap: 1.5vh 0.4vw;
 }
 .card {
     position: relative;
-    flex-basis: calc(100% / 7 - 00.3vw);
+    flex-basis: calc(100% / 7 - 00.4vw);
 }
 .card img {
     width: 100%;
@@ -49,4 +54,50 @@ nav button i {
     position: absolute;
     left: 0;
     bottom: 0;
+}
+footer div div a i{
+    padding-bottom: 7px;
+
+}
+footer div div a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.502);
+    padding: 1.3rem 0;
+
+}
+.footer-left{
+    display: flex;
+
+}
+.apice{
+    padding: 0 1rem;
+    font-weight: 900;
+}
+.first-footer-left{
+    padding-left: 10px;
+}
+footer div div a i{
+    font-size:large;
+}
+.icon-green a i{
+    color: rgb(123, 206, 0);
+}
+.footer-center{
+    
+}
+.footer-center-box{
+    display: flex;
+}
+.footer-center-box div{
+    padding: 0 1rem;
+}
+.footer-center-box div a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
