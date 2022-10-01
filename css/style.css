@@ -22,6 +22,7 @@ nav button{
     flex-basis: 14%;
     height: calc(100% / 5);
     padding: .4% .2%;
+    display: block;
     
 }
 .card img{
@@ -44,7 +45,6 @@ main{
     padding: 3%;
     height: calc(100vh - 31px - 50px);
     background-color: black;
-    overflow: auto;
 }
 footer{
     height: 50px ; 
