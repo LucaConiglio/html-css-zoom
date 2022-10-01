@@ -1,119 +1,81 @@
-* {
-    box-sizing: border-box;
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.mega-container {
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-}
-nav button {
-    color: whitesmoke;
-    border: none;
-    background-color: rgba(128, 128, 128, 0.459);
-    padding: .3rem;
-    border-radius: 5px;
-    margin: 3px 1px 0;
-    font-size: small;
-
-}
-nav {
+nav{
+    background-color: rgb(0, 0, 0);
     text-align: right;
-    padding-bottom: 1rem;
 }
-nav button i {
+nav .pre-button-nav{
+    padding: 5px;
+}
+nav button{
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.562);
     color: white;
-    display: inline-block;
-
-}
-nav .right{
-    margin-right: 5px;
-}
-.container {
-    padding: 4vh 6vw;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5vh 0.4vw;
 }
 .card {
     position: relative;
-    flex-basis: calc(100% / 7 - 00.4vw);
+    flex-basis: 14%;
+    height: calc(100% / 5);
+    padding: .4% .2%;
+    
 }
-.card img {
+.card img{
     width: 100%;
-    height: 12vh;
-}
+    height: 100%;
 
+
+}
 .absolute {
     color: white;
     font-size: smaller;
     background-color: rgba(128, 128, 128, 0.578);
-    padding: 0.2vh 0.3vw;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 1.4%;
+    bottom: 4.5%;
 }
-footer div div a i{
-    padding-bottom: 7px;
-
-}
-footer div div a{
-    text-decoration: none;
-    color: white;
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+    height: calc(100vh - 31px - 50px);
+    background-color: black;
+    overflow: auto;
 }
 footer{
+    height: 50px ; 
     display: flex;
     justify-content: space-between;
-    background-color: rgba(128, 128, 128, 0.299);
     align-items: center;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    background-color: rgb(28, 28, 28);
+}
 
+footer button{
+    color: white;
+    background-color:transparent;
+    border: none;
+    padding: 0 5px;
 }
-.footer-left{
-    display: flex;
-
-}
-.apice{
-    padding: 0 1rem;
-    font-weight: 900;
-}
-.first-footer-left{
-    padding-left: 10px;
-}
-footer div div a i{
-    font-size:large;
-}
-.icon-green a i{
-    color: rgb(123, 206, 0);
-}
-.footer-center-box{
+.footer-left, .footer-center-box{
     display: flex;
 }
-.footer-center-box div{
-    padding: 0 1rem;
+footer i{
+    font-size: large;
+    padding: 6px 0;
 }
-.footer-center-box div a{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.footer-left div a{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.footer-left div{
-    padding-left: 0.2rem;
+footer h6{
+    font-size: 12px;
+    font-weight: 300;
 }
 .footer-right button{
     height: 100%;
-    background-color: rgba(128, 128, 128, 0.402);
+    padding: 0 10px;
     color: red;
-    border: none;
-    padding: 0 0.4rem;
+}
+.footer-right{
+    background-color: rgba(128, 128, 128, 0.785);
 }
